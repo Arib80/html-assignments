@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+
+    <form>
+        <h2>Job Application Form</h2>
+
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter full name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@domain.com" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="experience">Experience (Years):</label><br>
+        <input type="number" id="experience" name="experience" min="1" max="30"><br><br>
+
+        <label for="doj">Date of Joining:</label><br>
+        <input type="date" id="doj" name="doj"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label>Programming Languages:</label><br>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br>
+        <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+        <label for="javascript">JavaScript</label><br>
+        <input type="checkbox" id="html_css" name="skills" value="HTML_CSS">
+        <label for="html_css">HTML & CSS</label><br><br>
+
+        <label for="resume">Upload Resume:</label><br>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <input type="submit" value="Submit Application">
+    </form>
+
+</body>
+</html>
+
